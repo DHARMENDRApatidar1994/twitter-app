@@ -1,0 +1,129 @@
+.Login-container{
+    display: flex;
+    justify-content: space-evenly;
+    /* align-items: center; */
+    flex: 1;
+    width: 100%;
+    height: 47vmax;
+    /* background-color: red; */
+}
+.form-container{
+    flex: 1;
+    padding: 50px;
+    /* margin: 10px; */
+    align-content: center;
+}
+
+.Twitter-img{
+    color: skyblue;
+   font-size: 5vmax;
+}
+.input-form{
+    width: 20px;
+}
+.heading
+{
+    font-size: 20px;
+}
+.heading1{
+    font-size: 35px;
+}
+
+.image{
+    max-width: 100%;
+    height: 100%;
+}
+input{
+    display: grid;
+    margin-bottom: 1px;
+    padding: 5px;
+    background-color: white;
+    margin-top: 15px;
+}
+.email,
+.password{
+    background-color: #E8F0FE;
+    width: 70%;
+    border-radius: 8px;
+    padding: 14px;
+    border: none;
+    outline: none;
+}
+.display-name{
+    background-color: #E8F0FE;
+    width: 70%;
+    border-radius: 8px;
+    padding: 14px;
+    border: none;
+    outline: none;
+}
+
+.btn-login{
+    width: 73%;
+    padding: 7px;
+    text-align: center;
+}
+.btn{
+    background-color: rgb(92, 199, 241);
+    width: 100%;
+    /* margin-right: 20px; */
+    padding: 14px;
+    border-radius: 8px;
+    font-size: 17px;
+    border: none;
+    outline: none;
+    margin-bottom: 15px;
+    margin-top: 15px;
+    cursor:pointer;
+}
+.g-btn{
+width:73% !important;
+    
+  
+}
+.google-button{
+  
+    /* background-color: red; */
+   margin-top: 2vmax;
+}
+
+.errorMessage{
+    color: red;
+    font-weight: 500;
+    margin: 10px 0;
+}
+.signUpText>Link{
+    text-decoration: none;
+    color: var(--twitter-color) !important;
+}
+
+
+
+
+@media (max-width:688px) {
+    .Login-container{
+        order: 2;
+        display: flex;
+        flex-direction: column;
+        font-size: 20px;
+    }
+    .form-container{
+        padding: 10px;
+    }
+    .image-container{
+        width: 100%;
+        vertical-align: text-bottom;
+        display: flex;
+        flex-direction: column-reverse;
+        order: 1;
+        max-width: 100%;
+       
+    }
+    .image{
+        order: 2;
+        width: 100%;
+        height: 100%;
+        margin-left: 100px;
+    }
+    
+}
