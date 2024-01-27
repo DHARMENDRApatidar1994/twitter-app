@@ -10,7 +10,7 @@ const Feed = () => {
     // const {data} =axios.get('http://localhost:5000/post')
     // console.log(data)
     // fetch('http://localhost:5000/post')
-    fetch('https://twitter-app-beta.vercel.app/post')
+    fetch('https://twitter-app-api.vercel.app/post')
     .then(res => res.json())
     .then(data => {
     setPosts(data)

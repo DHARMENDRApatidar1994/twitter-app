@@ -66,7 +66,7 @@ function TweetBox() {
       setPost('')
       setImageURL('')
       // fetch('http://localhost:5000/post', {
-      fetch('https://twitter-app-beta.vercel.app/post', {
+      fetch('https://twitter-app-api.vercel.app/post', {
         method: "POST",
         headers: {
           'content-type': 'application/json'

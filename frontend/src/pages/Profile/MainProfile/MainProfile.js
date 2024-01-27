@@ -20,7 +20,7 @@ const MainProfile = ({ user }) => {
 
   useEffect(()=>{
     // fetch(`http://localhost:5000/userPost?email=${user?.email}`)
-    fetch(`https://twitter-app-beta.vercel.app/userPost?email=${user?.email}`)
+    fetch(`https://twitter-app-api.vercel.app/userPost?email=${user?.email}`)
     .then(res => res.json())
     .then(data => {
     setPosts(data)

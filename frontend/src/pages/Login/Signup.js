@@ -47,7 +47,7 @@ const Signup = () => {
           email: email,
         }
       //  axios.post('http://localhost:5000/register',user)
-       axios.post('https://twitter-app-beta.vercel.app/register',user)
+       axios.post('https://twitter-app-api.vercel.app/register',user)
        
     }
 
