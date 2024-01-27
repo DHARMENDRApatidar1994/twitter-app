@@ -47,7 +47,7 @@ const Signup = () => {
           email: email,
         }
        axios.post('http://localhost:5000/register',user)
-      //  axios.post('https://twitter-app-ruby.vercel.app/register',user)
+      
        
     }
 
