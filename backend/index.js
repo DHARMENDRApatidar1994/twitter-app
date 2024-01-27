@@ -4,7 +4,13 @@ const app = express()
 const port = process.env.PORT || 5000;
 const { MongoClient, ServerApiVersion } = require('mongodb');
 
-app.use(cors());
+app.use(cors(
+  // {
+  //   origin: ['https://twitter-app-ruby.vercel.app'],
+  //   method:[POST,GET],
+  //   credentials: true
+  // }
+));
 app.use(express.json());
 
 

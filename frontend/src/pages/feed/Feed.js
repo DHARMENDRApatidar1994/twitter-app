@@ -9,7 +9,8 @@ const Feed = () => {
   useEffect(()=>{
     // const {data} =axios.get('http://localhost:5000/post')
     // console.log(data)
-    fetch('http://localhost:5000/post')
+    // fetch('http://localhost:5000/post')
+    fetch('https://twitter-app-beta.vercel.app/post')
     .then(res => res.json())
     .then(data => {
     setPosts(data)

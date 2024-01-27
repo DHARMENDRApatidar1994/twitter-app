@@ -78,7 +78,8 @@ export default function EditProfile({ user, loggedInUser }) {
             dob,
           }
           if(editedInfo){
-            await axios.patch(`http://localhost:5000/userUpdates/${user?.email}`,editedInfo)  }     
+            // await axios.patch(`http://localhost:5000/userUpdates/${user?.email}`,editedInfo)  }     
+            await axios.patch(`https://twitter-app-beta.vercel.app/userUpdates/${user?.email}`,editedInfo)  }     
           
       
         setOpen(false)
